@@ -7,3 +7,6 @@
 [submodule "SFEMP3Shield"]
 	path = SFEMP3Shield
 	url = git@github.com:luceralabs/Sparkfun-MP3-Player-Shield-Arduino-Library.git
+[submodule "SdFat"]
+	path = SdFat
+	url = git@github.com:luceralabs/Sparkfun-MP3-Player-Shield-Arduino-Library.git
