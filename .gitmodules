@@ -10,3 +10,6 @@
 [submodule "SdFat"]
 	path = SdFat
 	url = git@github.com:luceralabs/Sparkfun-MP3-Player-Shield-Arduino-Library.git
+[submodule "EventManager"]
+	path = EventManager
+	url = git@github.com:luceralabs/arduino-EventManager.git
