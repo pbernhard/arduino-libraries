@@ -13,3 +13,6 @@
 [submodule "EventManager"]
 	path = EventManager
 	url = git@github.com:luceralabs/arduino-EventManager.git
+[submodule "WiFlyHQ"]
+	path = WiFlyHQ
+	url = git@github.com:luceralabs/WiFlyHQ.git
