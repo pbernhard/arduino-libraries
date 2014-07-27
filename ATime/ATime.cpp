@@ -1,5 +1,5 @@
 /*
-  time.c - low level time and date functions
+  atime.c - low level time and date functions
   Copyright (c) Michael Margolis 2009
 
   This library is free software; you can redistribute it and/or
@@ -32,7 +32,7 @@
 #include <WProgram.h> 
 #endif
 
-#include "Time.h"
+#include "ATime.h"
 
 static tmElements_t tm;          // a cache of time elements
 static time_t cacheTime;   // the time the cache was updated

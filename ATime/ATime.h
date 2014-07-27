@@ -7,9 +7,9 @@
               - fixed  daysToTime_t macro (thanks maniacbug)
 */     
 
-#ifndef _Time_h
+#ifndef _ATime_h
 #ifdef __cplusplus
-#define _Time_h
+#define _ATime_h
 
 #include <inttypes.h>
 #ifndef __AVR__
@@ -140,5 +140,5 @@ time_t makeTime(tmElements_t &tm);  // convert time elements into time_t
 
 } // extern "C++"
 #endif // __cplusplus
-#endif /* _Time_h */
+#endif /* _ATime_h */
 
