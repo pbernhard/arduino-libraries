@@ -19,3 +19,6 @@
 [submodule "ds3231"]
 	path = ds3231
 	url = git@github.com:luceralabs/ds3231.git
+[submodule "MemoryFree"]
+	path = MemoryFree
+	url = git@github.com:luceralabs/MemoryFree.git
