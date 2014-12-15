@@ -38,7 +38,7 @@ const char monthStr10[] PROGMEM = "October";
 const char monthStr11[] PROGMEM = "November";
 const char monthStr12[] PROGMEM = "December";
 
-PGM_P PROGMEM monthNames_P[] = 
+PGM_P const monthNames_P[] PROGMEM =
 {
     "",monthStr1,monthStr2,monthStr3,monthStr4,monthStr5,monthStr6,
 	monthStr7,monthStr8,monthStr9,monthStr10,monthStr11,monthStr12
@@ -55,7 +55,7 @@ const char dayStr5[] PROGMEM = "Thursday";
 const char dayStr6[] PROGMEM = "Friday";
 const char dayStr7[] PROGMEM = "Saturday";
 
-PGM_P PROGMEM dayNames_P[] = { dayStr0,dayStr1,dayStr2,dayStr3,dayStr4,dayStr5,dayStr6,dayStr7};
+PGM_P const dayNames_P[] PROGMEM = { dayStr0,dayStr1,dayStr2,dayStr3,dayStr4,dayStr5,dayStr6,dayStr7};
 const char dayShortNames_P[] PROGMEM = "ErrSunMonTueWedThrFriSat";
 
 /* functions to return date strings */
