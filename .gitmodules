@@ -23,5 +23,5 @@
 	path = MemoryFree
 	url = git@github.com:luceralabs/MemoryFree.git
 [submodule "DFPlayer-Mini-mp3"]
-	path = DFPlayer-Mini-mp3
+	path = DFPlayerMini
 	url = git@github.com:luceralabs/DFPlayer-Mini-mp3.git
