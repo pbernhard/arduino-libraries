@@ -18,7 +18,11 @@
 
 
 #if !defined(__time_t_defined) // avoid conflict with newlib or other posix libc
-typedef unsigned long time_t;
+#if defined(__time_t_signed)   // enable compatibility with darwin's time_t
+  typedef long time_t;
+#else
+  typedef unsigned long time_t;
+#endif
 #endif
 
 
